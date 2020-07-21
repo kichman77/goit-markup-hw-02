@@ -15,16 +15,15 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
-  --background-whit-color: #ffffff;
   --background-dark-color: rgba(47, 48, 58, 0.8);
-  --footer-color: #2f303a;
+  --footer-bg-color: #2f303a;
   --logo-dark-color: #000000;
 }
 
 /* body */
 .page {
   color: var(--primary-text-color);
-  background-color: var(--background-whit-color);
+  background-color: var(--primary-bg-color);
 
   /* logo */
 }
@@ -32,8 +31,12 @@
   color: var(--logo-dark-color);
 }
 .logo-accent {
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
 }
 
 /* site-nav */
@@ -81,30 +84,10 @@
   background-color: var(--background-dark-color);
 }
 
+}
+
 /* ссылки на социальные сети */
 .socials-link:hover,
 .socials-link:focus {
-  color: var(--accent-color);
-}
-
-/* footer */
-.wrapper {
-  background-color: var(--footer-color);
-}
-.wrapper-titel {
-  color: var(--white-color);
-}
-
-.wrapper .socials-link:hover,
-.wrapper .socials-link:focus {
-  color: rgba(255, 255, 255, 0.6);
-}
-.wrapper-address {
-  color: var(--white-color);
-}
-
-}
-.wrapper-link:hover,
-.wrapper-link:focus {
   color: var(--accent-color);
 }
