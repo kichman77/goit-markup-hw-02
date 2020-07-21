@@ -21,15 +21,18 @@
 }
 
 /* body */
+
 .page {
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
-
-  /* logo */
+  background-color: var(--white-color);
 }
+
+/* logo */
+
 .logo {
   color: var(--logo-dark-color);
 }
+
 .logo-accent {
   color: var(--accent-color);
 }
@@ -40,54 +43,92 @@
 }
 
 /* site-nav */
+
 .list {
   list-style: none;
 }
+
 .site-nav .link {
   color: var(--primary-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* address */
+
 .address .link {
   color: var(--title-text-color);
 }
+
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
 }
 
 /* секция - герой */
+
 .hero-title {
   color: var(--white-color);
   background-color: var(--background-dark-color);
 }
-.hero-link {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-}
 
-/* все секции */
+/* другие секции */
+
 .section-title {
   color: var(--primary-text-color);
 }
+
 .section-text {
   color: var(--title-text-color);
 }
 
-/* секция - чем мы занимаемся */
-.section-subtitle {
-  color: var(--white-color);
-  background-color: var(--background-dark-color);
-}
-
-}
-
 /* ссылки на социальные сети */
+
 .socials-link:hover,
 .socials-link:focus {
   color: var(--accent-color);
+}
+
+/* button */
+
+.button {
+  color: var(--primary-text-color);
+  background-colo: var(--white-color);
+}
+
+.button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+}
+
+/* portfolio page */
+
+.section-filters .link {
+  color: var(--primary-text-color);
+}
+
+.section-filters .link:hover,
+.section-filters .link:focus {
+  color: var(--accent-color);
+}
+
+.section-item .link:hover,
+.section-item .link:focus {
+  color: var(--accent-color);
+}
+
+.section-item .link {
+  color: var(--primary-text-color);
 }
