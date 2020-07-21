@@ -112,17 +112,19 @@
   color: var(--accent-color);
   background-color: var(--white-color);
 }
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button-item .button:hover,
+.button-item .button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
 
 /* portfolio page */
-
-.section-filters .link {
-  color: var(--primary-text-color);
-}
-
-.section-filters .link:hover,
-.section-filters .link:focus {
-  color: var(--accent-color);
-}
 
 .section-item .link:hover,
 .section-item .link:focus {
