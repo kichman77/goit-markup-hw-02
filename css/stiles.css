@@ -25,12 +25,20 @@
 .page {
   color: var(--primary-text-color);
   background-color: var(--white-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* logo */
 
 .logo {
   color: var(--logo-dark-color);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1.2;
 }
 
 .logo-accent {
@@ -50,6 +58,11 @@
 
 .site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -65,6 +78,11 @@
 
 .address .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .address .link:hover,
@@ -72,14 +90,26 @@
   color: var(--accent-color);
 }
 
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 /* секция - герой */
 
 .hero-title {
   color: var(--white-color);
   background-color: var(--background-dark-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-/* другие секции */
+/* общий стиль для  секций */
 
 .section-title {
   color: var(--primary-text-color);
@@ -89,7 +119,77 @@
   color: var(--title-text-color);
 }
 
+/* секция - наши преимущества */
+
+.section-advantages-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+}
+
+.section-advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* секция - продукт */
+
+.section-product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-product-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* секция - наша команда */
+
+.section-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-team-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.section-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* секция - постоянные клиенты */
+
+.section-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* footer */
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
 /* ссылки на социальные сети */
+
+/* .socials-link {font-family: serif;} */
 
 .socials-link:hover,
 .socials-link:focus {
@@ -101,9 +201,15 @@
 .button {
   color: var(--primary-text-color);
   background-colo: var(--white-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
-.button.primary {
+/* .button.primary {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
@@ -111,7 +217,8 @@
 .button.secondary {
   color: var(--accent-color);
   background-color: var(--white-color);
-}
+} */
+
 .button:hover,
 .button:focus {
   color: var(--white-color);
@@ -126,11 +233,11 @@
 
 /* portfolio page */
 
+.section-item .link {
+  color: var(--primary-text-color);
+}
+
 .section-item .link:hover,
 .section-item .link:focus {
   color: var(--accent-color);
-}
-
-.section-item .link {
-  color: var(--primary-text-color);
 }
