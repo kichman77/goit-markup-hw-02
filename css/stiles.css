@@ -95,6 +95,9 @@
   font-size: 14px;
   line-height: 1.71;
 }
+.address-text {
+  color: var(--primary-text-color);
+}
 
 /* секция - герой */
 
@@ -202,7 +205,7 @@
   color: var(--primary-text-color);
   background-colo: var(--white-color);
 
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -240,4 +243,22 @@
 .section-item .link:hover,
 .section-item .link:focus {
   color: var(--accent-color);
+}
+
+.section-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-item-caption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.section-item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
 }
